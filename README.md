@@ -2,7 +2,7 @@
 
 <<<<<<< Updated upstream
 =======
-# Pre-requisites
+### Pre-requisites
 
 - Basic experience with training a machine learning model using scikit-learn or xgboost
 - Basic experience with serving a pretrained using flask
