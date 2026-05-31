@@ -1,0 +1,17 @@
+[2026-05-29T13:17:17.383+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-29T13:17:17.490+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing.process_user scheduled__2026-05-21T00:00:00+00:00 map_index=3 [queued]>
+[2026-05-29T13:17:17.535+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing.process_user scheduled__2026-05-21T00:00:00+00:00 map_index=3 [queued]>
+[2026-05-29T13:17:17.545+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-29T13:17:17.608+0000] {taskinstance.py:2889} INFO - Executing <Mapped(_PythonDecoratedOperator): process_user> on 2026-05-21 00:00:00+00:00
+[2026-05-29T13:17:17.674+0000] {standard_task_runner.py:72} INFO - Started process 11170 to run task
+[2026-05-29T13:17:17.673+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'process_user', 'scheduled__2026-05-21T00:00:00+00:00', '--job-id', '229', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpkonii4kj', '--map-index', '3']
+[2026-05-29T13:17:17.694+0000] {standard_task_runner.py:105} INFO - Job 229: Subtask process_user
+[2026-05-29T13:17:17.930+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing.process_user scheduled__2026-05-21T00:00:00+00:00 map_index=3 [running]> on host 7a0bb4c18cb4
+[2026-05-29T13:17:18.486+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing' AIRFLOW_CTX_TASK_ID='process_user' AIRFLOW_CTX_EXECUTION_DATE='2026-05-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-21T00:00:00+00:00'
+[2026-05-29T13:17:18.497+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-29T13:17:18.527+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-29T13:17:18.563+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-29T13:17:18.569+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=process_user, run_id=scheduled__2026-05-21T00:00:00+00:00, map_index=3, execution_date=20260521T000000, start_date=20260529T131717, end_date=20260529T131718
+[2026-05-29T13:17:18.688+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-29T13:17:18.785+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-29T13:17:18.790+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

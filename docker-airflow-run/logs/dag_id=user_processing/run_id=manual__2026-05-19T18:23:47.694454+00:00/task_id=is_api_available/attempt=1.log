@@ -1,0 +1,20 @@
+[2026-05-19T18:23:48.943+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-19T18:23:48.956+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing.is_api_available manual__2026-05-19T18:23:47.694454+00:00 [queued]>
+[2026-05-19T18:23:48.961+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing.is_api_available manual__2026-05-19T18:23:47.694454+00:00 [queued]>
+[2026-05-19T18:23:48.961+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-19T18:23:49.099+0000] {taskinstance.py:2889} INFO - Executing <Task(HttpSensor): is_api_available> on 2026-05-19 18:23:47.694454+00:00
+[2026-05-19T18:23:49.105+0000] {standard_task_runner.py:72} INFO - Started process 12901 to run task
+[2026-05-19T18:23:49.108+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'is_api_available', 'manual__2026-05-19T18:23:47.694454+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpu2by8nrl']
+[2026-05-19T18:23:49.110+0000] {standard_task_runner.py:105} INFO - Job 12: Subtask is_api_available
+[2026-05-19T18:23:49.139+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing.is_api_available manual__2026-05-19T18:23:47.694454+00:00 [running]> on host 7a0bb4c18cb4
+[2026-05-19T18:23:49.202+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing' AIRFLOW_CTX_TASK_ID='is_api_available' AIRFLOW_CTX_EXECUTION_DATE='2026-05-19T18:23:47.694454+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-19T18:23:47.694454+00:00'
+[2026-05-19T18:23:49.203+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-19T18:23:49.213+0000] {baseoperator.py:421} WARNING - HttpSensor.execute cannot be called outside TaskInstance!
+[2026-05-19T18:23:49.213+0000] {http.py:139} INFO - Poking: users?limit=10
+[2026-05-19T18:23:49.220+0000] {base.py:84} INFO - Retrieving connection 'user_api'
+[2026-05-19T18:23:49.713+0000] {base.py:336} INFO - Success criteria met. Exiting.
+[2026-05-19T18:23:49.724+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-19T18:23:49.724+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=is_api_available, run_id=manual__2026-05-19T18:23:47.694454+00:00, execution_date=20260519T182347, start_date=20260519T182348, end_date=20260519T182349
+[2026-05-19T18:23:49.763+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-19T18:23:49.787+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-19T18:23:49.789+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

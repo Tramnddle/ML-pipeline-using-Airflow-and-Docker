@@ -1,0 +1,17 @@
+[2026-05-20T10:21:36.037+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-20T10:21:36.056+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: product_processing.process_product manual__2026-05-20T10:21:31.894994+00:00 [queued]>
+[2026-05-20T10:21:36.068+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: product_processing.process_product manual__2026-05-20T10:21:31.894994+00:00 [queued]>
+[2026-05-20T10:21:36.068+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-20T10:21:36.346+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_product> on 2026-05-20 10:21:31.894994+00:00
+[2026-05-20T10:21:36.359+0000] {standard_task_runner.py:72} INFO - Started process 2229 to run task
+[2026-05-20T10:21:36.365+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'product_processing', 'process_product', 'manual__2026-05-20T10:21:31.894994+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/product_processing.py', '--cfg-path', '/tmp/tmpcc76e3qx']
+[2026-05-20T10:21:36.368+0000] {standard_task_runner.py:105} INFO - Job 80: Subtask process_product
+[2026-05-20T10:21:36.438+0000] {task_command.py:467} INFO - Running <TaskInstance: product_processing.process_product manual__2026-05-20T10:21:31.894994+00:00 [running]> on host 7a0bb4c18cb4
+[2026-05-20T10:21:36.549+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='product_processing' AIRFLOW_CTX_TASK_ID='process_product' AIRFLOW_CTX_EXECUTION_DATE='2026-05-20T10:21:31.894994+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-20T10:21:31.894994+00:00'
+[2026-05-20T10:21:36.550+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-20T10:21:36.598+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-20T10:21:36.609+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-20T10:21:36.610+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=product_processing, task_id=process_product, run_id=manual__2026-05-20T10:21:31.894994+00:00, execution_date=20260520T102131, start_date=20260520T102136, end_date=20260520T102136
+[2026-05-20T10:21:36.671+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-20T10:21:36.708+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-20T10:21:36.712+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

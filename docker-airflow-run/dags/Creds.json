@@ -1,7 +1,7 @@
 {
-  "user": "your_username",
-  "password": "pw",
-  "host": "host_id",
-  "database": "DB",
-  "port": 122
+  "user": "postgres",
+  "password": "UnigapPostgres@123",
+  "host": "source-postgres",
+  "database": "testdb",
+  "port": 5432
 }

@@ -1,0 +1,68 @@
+[2026-05-31T12:02:26.324+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-31T12:02:26.477+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_monitoring._ml_pipeline_monitoring__check_model_drift_ manual__2026-05-31T09:02:23.157674+00:00 [queued]>
+[2026-05-31T12:02:26.484+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_monitoring._ml_pipeline_monitoring__check_model_drift_ manual__2026-05-31T09:02:23.157674+00:00 [queued]>
+[2026-05-31T12:02:26.485+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2026-05-31T12:02:26.498+0000] {taskinstance.py:2889} INFO - Executing <Task(BranchPythonOperator): _ml_pipeline_monitoring__check_model_drift_> on 2026-05-31 09:02:23.157674+00:00
+[2026-05-31T12:02:26.512+0000] {standard_task_runner.py:72} INFO - Started process 691 to run task
+[2026-05-31T12:02:26.518+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_monitoring', '_ml_pipeline_monitoring__check_model_drift_', 'manual__2026-05-31T09:02:23.157674+00:00', '--job-id', '338', '--raw', '--subdir', 'DAGS_FOLDER/ml_pipeline_monitoring/dag_pipeline.py', '--cfg-path', '/tmp/tmpte99e5nt']
+[2026-05-31T12:02:26.522+0000] {standard_task_runner.py:105} INFO - Job 338: Subtask _ml_pipeline_monitoring__check_model_drift_
+[2026-05-31T12:02:26.576+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_pipeline_monitoring._ml_pipeline_monitoring__check_model_drift_ manual__2026-05-31T09:02:23.157674+00:00 [running]> on host c3e2d0786b32
+[2026-05-31T12:02:26.672+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_monitoring' AIRFLOW_CTX_TASK_ID='_ml_pipeline_monitoring__check_model_drift_' AIRFLOW_CTX_EXECUTION_DATE='2026-05-31T09:02:23.157674+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-31T09:02:23.157674+00:00'
+[2026-05-31T12:02:26.675+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-31T12:02:26.702+0000] {baseoperator.py:421} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2026-05-31T12:02:26.723+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/sklearn/base.py:348: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.24.2 when using version 1.3.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+[2026-05-31T12:02:26.725+0000] {logging_mixin.py:190} INFO - [WARNING] Deployed baseline model `12196ecaa65e4831987aee4bfced5f60_rf` is incompatible with the current scikit-learn version. Running model drift in the legacy scikit-learn runtime.
+[2026-05-31T12:02:33.501+0000] {logging_mixin.py:190} INFO - Traceback (most recent call last):
+  File "/opt/legacy_model_runtime/legacy_model_runner.py", line 46, in run_model_drift
+    result.save_as_html(args.report_path)
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/suite.py", line 266, in save_as_html
+    return save_as_html(
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/display.py", line 334, in save_as_html
+    serializer.serialize(**kwargs),
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/suite_result/widget.py", line 84, in serialize
+    self.prepare_results(
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/suite_result/widget.py", line 211, in prepare_results
+    serialized_results = [
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/suite_result/widget.py", line 212, in <listcomp>
+    select_serializer(it).serialize(output_id=section_id, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/check_result/widget.py", line 85, in serialize
+    sections.append(self.prepare_additional_output(
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/check_result/widget.py", line 156, in prepare_additional_output
+    return VBox(children=DisplayItemsHandler.handle_display(
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/check_result/widget.py", line 193, in handle_display
+    return t.cast(t.List[Widget], super().handle_display(
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/check_result/html.py", line 242, in handle_display
+    output.extend(super().handle_display(display, **{'output_id': output_id, **kwargs}))
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/abc.py", line 210, in handle_display
+    return [cls.handle_item(it, index, **kwargs) for index, it in enumerate(display)]
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/abc.py", line 210, in <listcomp>
+    return [cls.handle_item(it, index, **kwargs) for index, it in enumerate(display)]
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/abc.py", line 221, in handle_item
+    return cls.handle_figure(item, index, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/deepchecks/core/serialization/check_result/widget.py", line 225, in handle_figure
+    go.FigureWidget(data=item)
+  File "/usr/local/lib/python3.8/site-packages/plotly/missing_anywidget.py", line 13, in __init__
+    raise ImportError("Please install anywidget to use the FigureWidget class")
+ImportError: Please install anywidget to use the FigureWidget class
+[2026-05-31T12:02:33.502+0000] {logging_mixin.py:190} INFO - Matplotlib created a temporary cache directory at /tmp/matplotlib-_7kq8mhr because the default path (/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/opt/legacy_model_runtime/legacy_model_runner.py:42: DeprecationWarning: The TrainTestPredictionDrift check is deprecated and will be removed in the 0.14 version. Please use the PredictionDrift check instead.
+  TrainTestPredictionDrift().add_condition_drift_score_less_than(0.1),
+
+model drift:
+|     | 0/2 [Time: 00:00]
+model drift:
+|██▌  | 1/2 [Time: 00:00, Check=Roc Report]
+model drift:
+|█████| 2/2 [Time: 00:01, Check=Train Test Prediction Drift]
+[2026-05-31T12:02:33.506+0000] {python.py:240} INFO - Done. Returned value was: _ml_pipeline_monitoring__train_
+[2026-05-31T12:02:33.507+0000] {branch.py:38} INFO - Branch into _ml_pipeline_monitoring__train_
+[2026-05-31T12:02:33.509+0000] {skipmixin.py:230} INFO - Following branch ('_ml_pipeline_monitoring__train_',)
+[2026-05-31T12:02:33.526+0000] {skipmixin.py:278} INFO - Skipping tasks [('_ml_pipeline_monitoring__slack_model_drift_', -1)]
+[2026-05-31T12:02:33.573+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-31T12:02:33.576+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ml_pipeline_monitoring, task_id=_ml_pipeline_monitoring__check_model_drift_, run_id=manual__2026-05-31T09:02:23.157674+00:00, execution_date=20260531T090223, start_date=20260531T120226, end_date=20260531T120233
+[2026-05-31T12:02:33.656+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-31T12:02:33.708+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-31T12:02:33.713+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

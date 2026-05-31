@@ -1,7 +1,13 @@
+import os
+import sys
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+if CURRENT_DIR not in sys.path:
+    sys.path.insert(0, CURRENT_DIR)
+
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
 import pandas as pd
 import json
-import os
 import pickle
 import datetime
 

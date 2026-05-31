@@ -1,3 +1,10 @@
+import os
+import sys
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+if CURRENT_DIR not in sys.path:
+    sys.path.insert(0, CURRENT_DIR)
+
 from airflow import DAG
 from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.dummy import DummyOperator
@@ -6,6 +13,7 @@ from airflow.operators.slack_operator import SlackAPIPostOperator
 
 import traceback
 import datetime
+import numpy as np
 
 
 from src import config
@@ -18,6 +26,24 @@ from src import drifts
 TARGET = config.TARGET
 PREDICTORS = config.PREDICTORS
 DAG_ID = "ml_pipeline_monitoring"
+
+
+def build_notification_task(dag_id: str, suffix: str, text: str):
+    """
+    Create a Slack notification task when the configured Airflow connection
+    exists, otherwise fall back to a no-op task so the DAG still imports.
+    """
+    try:
+        slack_connection = BaseHook.get_connection(config.SLACK_CONNECTION_ID)
+        return SlackAPIPostOperator(
+            task_id=f"_{dag_id}__{suffix}_",
+            token=slack_connection.password,
+            text=text,
+            channel=slack_connection.login,
+            username="airflow",
+        )
+    except Exception:
+        return DummyOperator(task_id=f"_{dag_id}__{suffix}_")
 
 def init(ti, job_id:str, **context):
     """
@@ -66,7 +92,7 @@ def get_data(ti, mode:str="training"):
     except Exception as e:
         ti.xcom_push(key='exception', value=str(e))
         message = str(traceback.format_exc())
-        helpers.log_activity(job_id, job_type=mode, stage="etl", status="failed", message=message, job_date=end_date)
+        helpers.log_activity(job_id, job_type=mode, stage="etl", status="fail", message=message, job_date=end_date)
         raise(Exception(message))
 
 def check_data_quality(ti):
@@ -121,7 +147,7 @@ def preprocess_data(ti, mode:str=None):
     except Exception as e:
         ti.xcom_push(key='exception', value=str(e))
         message = str(traceback.format_exc())
-        helpers.log_activity(job_id, job_type=mode, stage="preprocess", status="failed", message=message, job_date=date)
+        helpers.log_activity(job_id, job_type=mode, stage="preprocess", status="fail", message=message, job_date=date)
         raise(Exception(message))
     
 def check_model_drift(ti):
@@ -135,7 +161,27 @@ def check_model_drift(ti):
     _, last_filename = helpers.locate_preprocessed_filenames(last_deployed_job_id)
     _, curr_filename = helpers.locate_preprocessed_filenames(job_id)
     model_type = helpers.get_model_type(last_deployed_job_id)
-    model = helpers.load_model_from_pickle(f"{last_deployed_job_id}_{model_type}")
+    try:
+        model = helpers.load_model_from_pickle(f"{last_deployed_job_id}_{model_type}")
+    except Exception as exc:
+        if helpers.is_incompatible_sklearn_pickle_error(exc):
+            print(
+                f"[WARNING] Deployed baseline model `{last_deployed_job_id}_{model_type}` "
+                "is incompatible with the current scikit-learn version. "
+                "Running model drift in the legacy scikit-learn runtime."
+            )
+            retrain = helpers.run_legacy_model_drift(
+                ref_csv_path=last_filename,
+                cur_csv_path=curr_filename,
+                model_name_or_path=f"{last_deployed_job_id}_{model_type}",
+                predictors=PREDICTORS,
+                target=TARGET,
+                job_id=job_id,
+            )
+            if retrain["retrain"]:
+                return f'_{DAG_ID}__train_'
+            return f'_{DAG_ID}__slack_model_drift_'
+        raise
     retrain = drifts.check_model_drift(
         ref_df=helpers.load_dataset(last_filename), 
         cur_df=helpers.load_dataset(curr_filename), 
@@ -165,7 +211,7 @@ def train_model(ti, mode:str="training"):
     except Exception as e:
         ti.xcom_push(key='exception', value=str(e))
         message = str(traceback.format_exc())
-        helpers.log_activity(job_id, job_type=mode, stage="training", status="failed", message=message, job_date=date)
+        helpers.log_activity(job_id, job_type=mode, stage="training", status="fail", message=message, job_date=date)
         raise(Exception(message))
 
 def deploy_model(ti, metric:str):
@@ -194,14 +240,47 @@ def deploy_model(ti, metric:str):
         
         last_model_type = helpers.get_model_type(last_deployed_job_id)
         last_model_name = f"{last_deployed_job_id}_{last_model_type}"
-        last_model = helpers.load_model_from_pickle(last_model_name)
+        try:
+            last_model = helpers.load_model_from_pickle(last_model_name)
+            models = [
+                {"model_name": last_model_name, "model": last_model},
+                {"model_name": model_name, "model": model},
+            ]
+            train.pick_model_and_deploy(job_id, models=models, df=df, metric=metric, predictors=PREDICTORS, target=TARGET)
+        except Exception as exc:
+            if helpers.is_incompatible_sklearn_pickle_error(exc):
+                print(
+                    f"[WARNING] Deployed baseline model `{last_model_name}` is incompatible "
+                    "with the current scikit-learn version. Evaluating it in the legacy runtime."
+                )
+                legacy_output = helpers.predict_with_legacy_model(
+                    model_name_or_path=last_model_name,
+                    dataset_path=test_filename,
+                    predictors=PREDICTORS,
+                )
+                y_true = df[TARGET]
+                current_pred = model.predict(df[PREDICTORS])
+                current_prob = model.predict_proba(df[PREDICTORS])[:, 1]
+                current_report = train.performance_report(y_true, current_pred, current_prob)
+                legacy_report = train.performance_report(
+                    y_true,
+                    np.array(legacy_output["predictions"]),
+                    np.array(legacy_output["probabilities"]),
+                )
+                chosen_model_name = (
+                    last_model_name if legacy_report[metric] > current_report[metric] else model_name
+                )
+                helpers.persist_deploy_report(job_id, chosen_model_name)
+                helpers.log_activity(job_id, "training", "deploy", "pass", "", date)
+                return
+            else:
+                raise
         
-        train.pick_model_and_deploy(job_id, models=[{"model_name": last_model_name, "model": last_model}, {"model_name": model_name, "model": model}], df=df, metric=metric, predictors=PREDICTORS, target=TARGET)
         helpers.log_activity(job_id, "training", "deploy", "pass", "", date)
     except Exception as e:
         ti.xcom_push(key='exception', value=str(e))
         message = str(traceback.format_exc())
-        helpers.log_activity(job_id, "training", "deploy", "failed", message, date)
+        helpers.log_activity(job_id, "training", "deploy", "fail", message, date)
         raise(Exception(message))
     
 def create_dag(dag_id):
@@ -219,8 +298,6 @@ def create_dag(dag_id):
         
     ) as dag:
         curr_job_id = helpers.generate_uuid()
-        slack_channel = BaseHook.get_connection("slack_connection").login
-        slack_token = BaseHook.get_connection("slack_connection").password
 
         task_start = PythonOperator(task_id=f"_{dag_id}__init_", python_callable=init, op_kwargs={"job_id": curr_job_id})
         task_get_data = PythonOperator(task_id=f"_{dag_id}__get_data_", python_callable=get_data)
@@ -232,26 +309,20 @@ def create_dag(dag_id):
         task_deploy_model = PythonOperator(task_id=f"_{dag_id}__deploy_", python_callable=deploy_model, op_kwargs={"metric": "auc"})
         task_end = DummyOperator(task_id=f"_{dag_id}__end_")
         
-        slack_data_quality = SlackAPIPostOperator(
-            task_id=f'_{dag_id}__slack_data_quality_',
-            token=slack_token, 
-            text=""":red_circle: Training aborted due to data quality issues""",
-            channel=slack_channel, 
-            username='airflow'
+        slack_data_quality = build_notification_task(
+            dag_id,
+            "slack_data_quality",
+            ":red_circle: Training aborted due to data quality issues",
         )
-        slack_data_drift = SlackAPIPostOperator(
-            task_id=f'_{dag_id}__slack_data_drift_',
-            token=slack_token, 
-            text=""":white_circle: Training aborted since no data drift was detected""",
-            channel=slack_channel, 
-            username='airflow'
+        slack_data_drift = build_notification_task(
+            dag_id,
+            "slack_data_drift",
+            ":white_circle: Training aborted since no data drift was detected",
         )
-        slack_model_drift = SlackAPIPostOperator(
-            task_id=f'_{dag_id}__slack_model_drift_',
-            token=slack_token, 
-            text=""":white_circle: No new model deployed since no model drift was detected""",
-            channel=slack_channel, 
-            username='airflow'
+        slack_model_drift = build_notification_task(
+            dag_id,
+            "slack_model_drift",
+            ":white_circle: No new model deployed since no model drift was detected",
         )
         task_start >> task_get_data >> task_check_data_quality >> task_check_data_drift >> task_preprocess >> task_check_model_drift >> task_train_model >> task_deploy_model >> task_end
         task_check_data_quality >> slack_data_quality

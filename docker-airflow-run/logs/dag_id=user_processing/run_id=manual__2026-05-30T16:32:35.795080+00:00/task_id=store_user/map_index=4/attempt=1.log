@@ -1,0 +1,19 @@
+[2026-05-30T16:32:57.948+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-30T16:32:58.081+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing.store_user manual__2026-05-30T16:32:35.795080+00:00 map_index=4 [queued]>
+[2026-05-30T16:32:58.135+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing.store_user manual__2026-05-30T16:32:35.795080+00:00 map_index=4 [queued]>
+[2026-05-30T16:32:58.141+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-30T16:32:58.240+0000] {taskinstance.py:2889} INFO - Executing <Mapped(_PythonDecoratedOperator): store_user> on 2026-05-30 16:32:35.795080+00:00
+[2026-05-30T16:32:58.280+0000] {standard_task_runner.py:72} INFO - Started process 213 to run task
+[2026-05-30T16:32:58.298+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'store_user', 'manual__2026-05-30T16:32:35.795080+00:00', '--job-id', '267', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpghcg123c', '--map-index', '4']
+[2026-05-30T16:32:58.330+0000] {standard_task_runner.py:105} INFO - Job 267: Subtask store_user
+[2026-05-30T16:32:58.504+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing.store_user manual__2026-05-30T16:32:35.795080+00:00 map_index=4 [running]> on host b33e8edd6f67
+[2026-05-30T16:32:58.916+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing' AIRFLOW_CTX_TASK_ID='store_user' AIRFLOW_CTX_EXECUTION_DATE='2026-05-30T16:32:35.795080+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-30T16:32:35.795080+00:00'
+[2026-05-30T16:32:58.918+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-30T16:32:58.931+0000] {postgres.py:204} INFO - Running copy expert: COPY users FROM stdin WITH DELIMITER as ',', filename: /tmp/processed_user_5.csv
+[2026-05-30T16:32:58.967+0000] {base.py:84} INFO - Retrieving connection 'postgres'
+[2026-05-30T16:32:59.000+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-30T16:32:59.038+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-30T16:32:59.043+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=store_user, run_id=manual__2026-05-30T16:32:35.795080+00:00, map_index=4, execution_date=20260530T163235, start_date=20260530T163258, end_date=20260530T163259
+[2026-05-30T16:32:59.156+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-30T16:32:59.215+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-30T16:32:59.224+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

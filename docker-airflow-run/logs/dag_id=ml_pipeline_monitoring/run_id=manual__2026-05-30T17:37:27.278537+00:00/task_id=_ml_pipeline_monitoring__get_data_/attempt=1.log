@@ -1,0 +1,22 @@
+[2026-05-30T17:37:34.310+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-30T17:37:34.326+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_monitoring._ml_pipeline_monitoring__get_data_ manual__2026-05-30T17:37:27.278537+00:00 [queued]>
+[2026-05-30T17:37:34.335+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_monitoring._ml_pipeline_monitoring__get_data_ manual__2026-05-30T17:37:27.278537+00:00 [queued]>
+[2026-05-30T17:37:34.338+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-30T17:37:34.355+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): _ml_pipeline_monitoring__get_data_> on 2026-05-30 17:37:27.278537+00:00
+[2026-05-30T17:37:34.370+0000] {standard_task_runner.py:72} INFO - Started process 693 to run task
+[2026-05-30T17:37:34.378+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_monitoring', '_ml_pipeline_monitoring__get_data_', 'manual__2026-05-30T17:37:27.278537+00:00', '--job-id', '304', '--raw', '--subdir', 'DAGS_FOLDER/ml_pipeline_monitoring/dag_pipeline.py', '--cfg-path', '/tmp/tmp492qqs6q']
+[2026-05-30T17:37:34.381+0000] {standard_task_runner.py:105} INFO - Job 304: Subtask _ml_pipeline_monitoring__get_data_
+[2026-05-30T17:37:34.437+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_pipeline_monitoring._ml_pipeline_monitoring__get_data_ manual__2026-05-30T17:37:27.278537+00:00 [running]> on host ea8dc20c3f47
+[2026-05-30T17:37:34.521+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ml_pipeline_monitoring' AIRFLOW_CTX_TASK_ID='_ml_pipeline_monitoring__get_data_' AIRFLOW_CTX_EXECUTION_DATE='2026-05-30T17:37:27.278537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-30T17:37:27.278537+00:00'
+[2026-05-30T17:37:34.523+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-30T17:37:34.587+0000] {logging_mixin.py:190} INFO - [INFO] Table testdb.mljob ready!
+[2026-05-30T17:37:34.592+0000] {logging_mixin.py:190} INFO - [INFO] Job 84fe0fe0fd184b858aa29d2c552d9cab logged as training::etl::started::
+[2026-05-30T17:37:34.593+0000] {logging_mixin.py:190} INFO - [INFO] Extracting data from the database since 2015-06-01 to 2026-05-30 ...
+[2026-05-30T17:37:37.875+0000] {logging_mixin.py:190} INFO - [INFO] Dataset saved to /opt/***/ml_pipeline_data/raw/84fe0fe0fd184b858aa29d2c552d9cab_2015-06-01_2026-05-30.csv
+[2026-05-30T17:37:37.912+0000] {logging_mixin.py:190} INFO - [INFO] Job 84fe0fe0fd184b858aa29d2c552d9cab logged as training::etl::pass::
+[2026-05-30T17:37:37.912+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-30T17:37:37.921+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-30T17:37:37.922+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ml_pipeline_monitoring, task_id=_ml_pipeline_monitoring__get_data_, run_id=manual__2026-05-30T17:37:27.278537+00:00, execution_date=20260530T173727, start_date=20260530T173734, end_date=20260530T173737
+[2026-05-30T17:37:37.964+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-30T17:37:37.984+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-30T17:37:37.986+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

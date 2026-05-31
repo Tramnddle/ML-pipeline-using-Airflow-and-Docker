@@ -18,8 +18,30 @@ except ImportError:
     import config
     import queries
 
-credentials = json.load(open(config.PATH_TO_CREDENTIALS, 'r'))
-engine = create_engine(f"postgresql://{credentials['user']}:{credentials['password']}@{credentials['host']}:{credentials['port']}/{credentials['database']}")
+def load_db_credentials() -> dict:
+    """
+    Resolve source Postgres credentials from environment variables first, then
+    fall back to the JSON file used by the original project.
+    """
+    env_mapping = {
+        "user": os.environ.get("ML_PIPELINE_DB_USER"),
+        "password": os.environ.get("ML_PIPELINE_DB_PASSWORD"),
+        "host": os.environ.get("ML_PIPELINE_DB_HOST"),
+        "database": os.environ.get("ML_PIPELINE_DB_NAME"),
+        "port": os.environ.get("ML_PIPELINE_DB_PORT"),
+    }
+    if all(env_mapping.values()):
+        return env_mapping
+
+    with open(config.PATH_TO_CREDENTIALS, "r") as f:
+        return json.load(f)
+
+
+credentials = load_db_credentials()
+engine = create_engine(
+    f"postgresql://{credentials['user']}:{credentials['password']}@"
+    f"{credentials['host']}:{credentials['port']}/{credentials['database']}"
+)
 print(f"[INFO] Connection to `{credentials['host']}:{credentials['database']}` initiated!")
 
 ### data handlers ###

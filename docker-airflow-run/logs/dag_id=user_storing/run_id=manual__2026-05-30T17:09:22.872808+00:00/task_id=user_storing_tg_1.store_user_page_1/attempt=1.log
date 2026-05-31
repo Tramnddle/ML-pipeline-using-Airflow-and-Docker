@@ -1,0 +1,20 @@
+[2026-05-30T17:09:25.960+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-30T17:09:25.977+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_storing.user_storing_tg_1.store_user_page_1 manual__2026-05-30T17:09:22.872808+00:00 [queued]>
+[2026-05-30T17:09:25.989+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_storing.user_storing_tg_1.store_user_page_1 manual__2026-05-30T17:09:22.872808+00:00 [queued]>
+[2026-05-30T17:09:25.990+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-30T17:09:26.008+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): user_storing_tg_1.store_user_page_1> on 2026-05-30 17:09:22.872808+00:00
+[2026-05-30T17:09:26.019+0000] {standard_task_runner.py:72} INFO - Started process 212 to run task
+[2026-05-30T17:09:26.024+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_storing', 'user_storing_tg_1.store_user_page_1', 'manual__2026-05-30T17:09:22.872808+00:00', '--job-id', '279', '--raw', '--subdir', 'DAGS_FOLDER/user_storing.py', '--cfg-path', '/tmp/tmpcz9cv359']
+[2026-05-30T17:09:26.027+0000] {standard_task_runner.py:105} INFO - Job 279: Subtask user_storing_tg_1.store_user_page_1
+[2026-05-30T17:09:26.079+0000] {task_command.py:467} INFO - Running <TaskInstance: user_storing.user_storing_tg_1.store_user_page_1 manual__2026-05-30T17:09:22.872808+00:00 [running]> on host ea8dc20c3f47
+[2026-05-30T17:09:26.321+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_storing' AIRFLOW_CTX_TASK_ID='user_storing_tg_1.store_user_page_1' AIRFLOW_CTX_EXECUTION_DATE='2026-05-30T17:09:22.872808+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-30T17:09:22.872808+00:00'
+[2026-05-30T17:09:26.324+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-30T17:09:26.377+0000] {postgres.py:204} INFO - Running copy expert: COPY users FROM stdin WITH DELIMITER as ',' CSV HEADER, filename: /tmp/processed_user_1.csv
+[2026-05-30T17:09:26.383+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-05-30T17:09:26.389+0000] {base.py:84} INFO - Retrieving connection 'postgres'
+[2026-05-30T17:09:26.398+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-30T17:09:26.428+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-30T17:09:26.428+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_storing, task_id=user_storing_tg_1.store_user_page_1, run_id=manual__2026-05-30T17:09:22.872808+00:00, execution_date=20260530T170922, start_date=20260530T170925, end_date=20260530T170926
+[2026-05-30T17:09:26.496+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-30T17:09:26.523+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-30T17:09:26.531+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

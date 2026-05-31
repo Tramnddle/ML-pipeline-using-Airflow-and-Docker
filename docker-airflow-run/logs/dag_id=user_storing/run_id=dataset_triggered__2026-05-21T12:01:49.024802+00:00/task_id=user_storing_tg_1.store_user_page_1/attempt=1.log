@@ -1,0 +1,19 @@
+[2026-05-21T12:01:51.636+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-21T12:01:51.655+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_storing.user_storing_tg_1.store_user_page_1 dataset_triggered__2026-05-21T12:01:49.024802+00:00 [queued]>
+[2026-05-21T12:01:51.667+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_storing.user_storing_tg_1.store_user_page_1 dataset_triggered__2026-05-21T12:01:49.024802+00:00 [queued]>
+[2026-05-21T12:01:51.667+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-21T12:01:51.687+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): user_storing_tg_1.store_user_page_1> on 2026-05-21 12:01:49.024802+00:00
+[2026-05-21T12:01:51.697+0000] {standard_task_runner.py:72} INFO - Started process 8177 to run task
+[2026-05-21T12:01:51.704+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_storing', 'user_storing_tg_1.store_user_page_1', 'dataset_triggered__2026-05-21T12:01:49.024802+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/user_storing.py', '--cfg-path', '/tmp/tmpfcyio8od']
+[2026-05-21T12:01:51.711+0000] {standard_task_runner.py:105} INFO - Job 162: Subtask user_storing_tg_1.store_user_page_1
+[2026-05-21T12:01:51.784+0000] {task_command.py:467} INFO - Running <TaskInstance: user_storing.user_storing_tg_1.store_user_page_1 dataset_triggered__2026-05-21T12:01:49.024802+00:00 [running]> on host 7a0bb4c18cb4
+[2026-05-21T12:01:51.911+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_storing' AIRFLOW_CTX_TASK_ID='user_storing_tg_1.store_user_page_1' AIRFLOW_CTX_EXECUTION_DATE='2026-05-21T12:01:49.024802+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='dataset_triggered__2026-05-21T12:01:49.024802+00:00'
+[2026-05-21T12:01:51.912+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-21T12:01:51.931+0000] {postgres.py:204} INFO - Running copy expert: COPY users FROM stdin WITH DELIMITER as ',' CSV HEADER, filename: /tmp/processed_user_1.csv
+[2026-05-21T12:01:51.940+0000] {base.py:84} INFO - Retrieving connection 'postgres'
+[2026-05-21T12:01:51.948+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-21T12:01:51.962+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-21T12:01:51.964+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_storing, task_id=user_storing_tg_1.store_user_page_1, run_id=dataset_triggered__2026-05-21T12:01:49.024802+00:00, execution_date=20260521T120149, start_date=20260521T120151, end_date=20260521T120151
+[2026-05-21T12:01:52.008+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-21T12:01:52.021+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-21T12:01:52.026+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

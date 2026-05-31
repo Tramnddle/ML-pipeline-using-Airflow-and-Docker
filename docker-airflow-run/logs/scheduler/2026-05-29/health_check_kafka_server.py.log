@@ -1,0 +1,889 @@
+[2026-05-29T13:16:56.969+0000] {processor.py:186} INFO - Started process (PID=23024) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:16:56.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:16:56.975+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:16:56.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:16:57.000+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:16:57.035+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:16:57.035+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:16:57.084+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:16:57.084+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:14:00+00:00, run_after=2026-05-29 13:16:00+00:00
+[2026-05-29T13:16:57.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.159 seconds
+[2026-05-29T13:17:27.614+0000] {processor.py:186} INFO - Started process (PID=23033) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:17:27.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:17:27.618+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:17:27.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:17:27.649+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:17:27.709+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:17:27.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:17:27.784+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:17:27.783+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:14:00+00:00, run_after=2026-05-29 13:16:00+00:00
+[2026-05-29T13:17:27.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.225 seconds
+[2026-05-29T13:17:58.148+0000] {processor.py:186} INFO - Started process (PID=23054) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:17:58.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:17:58.170+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:17:58.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:17:58.189+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:17:58.423+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:17:58.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:17:58.695+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:17:58.695+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:14:00+00:00, run_after=2026-05-29 13:16:00+00:00
+[2026-05-29T13:17:58.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.804 seconds
+[2026-05-29T13:18:29.073+0000] {processor.py:186} INFO - Started process (PID=23068) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:18:29.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:18:29.078+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:18:29.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:18:29.097+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:18:29.132+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:18:29.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:18:29.170+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:18:29.170+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:16:00+00:00, run_after=2026-05-29 13:18:00+00:00
+[2026-05-29T13:18:29.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.118 seconds
+[2026-05-29T13:18:59.863+0000] {processor.py:186} INFO - Started process (PID=23083) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:18:59.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:18:59.865+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:18:59.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:18:59.872+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:18:59.889+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:18:59.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:18:59.908+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:18:59.908+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:16:00+00:00, run_after=2026-05-29 13:18:00+00:00
+[2026-05-29T13:18:59.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T13:19:30.419+0000] {processor.py:186} INFO - Started process (PID=23099) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:19:30.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:19:30.421+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:19:30.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:19:30.429+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:19:30.445+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:19:30.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:19:30.462+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:19:30.462+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:16:00+00:00, run_after=2026-05-29 13:18:00+00:00
+[2026-05-29T13:19:30.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T13:20:00.916+0000] {processor.py:186} INFO - Started process (PID=23115) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:20:00.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:20:00.918+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:20:00.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:20:00.925+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:20:00.941+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:20:00.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:20:00.959+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:20:00.958+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:18:00+00:00, run_after=2026-05-29 13:20:00+00:00
+[2026-05-29T13:20:00.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.059 seconds
+[2026-05-29T13:20:31.432+0000] {processor.py:186} INFO - Started process (PID=23131) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:20:31.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:20:31.434+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:20:31.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:20:31.441+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:20:31.457+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:20:31.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:20:31.475+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:20:31.474+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:18:00+00:00, run_after=2026-05-29 13:20:00+00:00
+[2026-05-29T13:20:31.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.061 seconds
+[2026-05-29T13:21:01.943+0000] {processor.py:186} INFO - Started process (PID=23147) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:21:01.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:21:01.950+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:21:01.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:21:01.960+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:21:01.978+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:21:01.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:21:01.999+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:21:01.999+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:18:00+00:00, run_after=2026-05-29 13:20:00+00:00
+[2026-05-29T13:21:02.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.076 seconds
+[2026-05-29T13:21:32.472+0000] {processor.py:186} INFO - Started process (PID=23163) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:21:32.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:21:32.474+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:21:32.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:21:32.482+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:21:32.498+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:21:32.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:21:32.519+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:21:32.518+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:18:00+00:00, run_after=2026-05-29 13:20:00+00:00
+[2026-05-29T13:21:32.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.064 seconds
+[2026-05-29T13:22:03.054+0000] {processor.py:186} INFO - Started process (PID=23179) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:22:03.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:22:03.056+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:22:03.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:22:03.063+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:22:03.078+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:22:03.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:22:03.095+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:22:03.095+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:20:00+00:00, run_after=2026-05-29 13:22:00+00:00
+[2026-05-29T13:22:03.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.059 seconds
+[2026-05-29T13:22:33.610+0000] {processor.py:186} INFO - Started process (PID=23196) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:22:33.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:22:33.611+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:22:33.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:22:33.619+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:22:33.636+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:22:33.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:22:33.655+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:22:33.654+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:20:00+00:00, run_after=2026-05-29 13:22:00+00:00
+[2026-05-29T13:22:33.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.066 seconds
+[2026-05-29T13:23:04.176+0000] {processor.py:186} INFO - Started process (PID=23212) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:23:04.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:23:04.178+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:23:04.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:23:04.186+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:23:04.201+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:23:04.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:23:04.221+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:23:04.221+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:20:00+00:00, run_after=2026-05-29 13:22:00+00:00
+[2026-05-29T13:23:04.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:23:34.666+0000] {processor.py:186} INFO - Started process (PID=23228) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:23:34.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:23:34.668+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:23:34.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:23:34.676+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:23:34.691+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:23:34.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:23:34.708+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:23:34.708+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:20:00+00:00, run_after=2026-05-29 13:22:00+00:00
+[2026-05-29T13:23:34.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.057 seconds
+[2026-05-29T13:24:05.203+0000] {processor.py:186} INFO - Started process (PID=23245) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:24:05.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:24:05.205+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:24:05.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:24:05.212+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:24:05.227+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:24:05.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:24:05.245+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:24:05.245+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:22:00+00:00, run_after=2026-05-29 13:24:00+00:00
+[2026-05-29T13:24:05.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.059 seconds
+[2026-05-29T13:24:35.755+0000] {processor.py:186} INFO - Started process (PID=23261) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:24:35.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:24:35.757+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:24:35.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:24:35.764+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:24:35.780+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:24:35.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:24:35.802+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:24:35.802+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:22:00+00:00, run_after=2026-05-29 13:24:00+00:00
+[2026-05-29T13:24:35.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.064 seconds
+[2026-05-29T13:25:06.287+0000] {processor.py:186} INFO - Started process (PID=23277) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:25:06.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:25:06.290+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:25:06.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:25:06.299+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:25:06.320+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:25:06.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:25:06.338+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:25:06.338+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:22:00+00:00, run_after=2026-05-29 13:24:00+00:00
+[2026-05-29T13:25:06.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.069 seconds
+[2026-05-29T13:25:36.863+0000] {processor.py:186} INFO - Started process (PID=23293) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:25:36.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:25:36.865+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:25:36.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:25:36.872+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:25:36.888+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:25:36.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:25:36.919+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:25:36.919+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:22:00+00:00, run_after=2026-05-29 13:24:00+00:00
+[2026-05-29T13:25:36.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.082 seconds
+[2026-05-29T13:26:07.468+0000] {processor.py:186} INFO - Started process (PID=23309) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:26:07.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:26:07.472+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:26:07.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:26:07.487+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:26:07.523+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:26:07.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:26:07.558+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:26:07.558+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:24:00+00:00, run_after=2026-05-29 13:26:00+00:00
+[2026-05-29T13:26:07.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.124 seconds
+[2026-05-29T13:26:38.074+0000] {processor.py:186} INFO - Started process (PID=23325) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:26:38.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:26:38.076+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:26:38.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:26:38.083+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:26:38.099+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:26:38.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:26:38.117+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:26:38.117+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:24:00+00:00, run_after=2026-05-29 13:26:00+00:00
+[2026-05-29T13:26:38.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:27:08.742+0000] {processor.py:186} INFO - Started process (PID=23341) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:27:08.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:27:08.744+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:27:08.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:27:08.751+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:27:08.766+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:27:08.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:27:08.786+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:27:08.786+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:24:00+00:00, run_after=2026-05-29 13:26:00+00:00
+[2026-05-29T13:27:08.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:27:39.358+0000] {processor.py:186} INFO - Started process (PID=23357) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:27:39.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:27:39.359+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:27:39.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:27:39.368+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:27:39.385+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:27:39.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:27:39.405+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:27:39.405+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:24:00+00:00, run_after=2026-05-29 13:26:00+00:00
+[2026-05-29T13:27:39.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T13:28:09.915+0000] {processor.py:186} INFO - Started process (PID=23373) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:28:09.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:28:09.917+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:28:09.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:28:09.933+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:28:09.970+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:28:09.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:28:09.999+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:28:09.999+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:26:00+00:00, run_after=2026-05-29 13:28:00+00:00
+[2026-05-29T13:28:10.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.113 seconds
+[2026-05-29T13:28:40.495+0000] {processor.py:186} INFO - Started process (PID=23389) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:28:40.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:28:40.496+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:28:40.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:28:40.503+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:28:40.519+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:28:40.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:28:40.537+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:28:40.537+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:26:00+00:00, run_after=2026-05-29 13:28:00+00:00
+[2026-05-29T13:28:40.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:29:11.231+0000] {processor.py:186} INFO - Started process (PID=23406) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:29:11.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:29:11.233+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:29:11.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:29:11.242+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:29:11.261+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:29:11.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:29:11.282+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:29:11.282+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:26:00+00:00, run_after=2026-05-29 13:28:00+00:00
+[2026-05-29T13:29:11.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.070 seconds
+[2026-05-29T13:29:41.986+0000] {processor.py:186} INFO - Started process (PID=23422) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:29:41.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:29:41.988+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:29:41.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:29:41.995+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:29:42.011+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:29:42.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:29:42.030+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:29:42.030+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:26:00+00:00, run_after=2026-05-29 13:28:00+00:00
+[2026-05-29T13:29:42.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T13:30:12.615+0000] {processor.py:186} INFO - Started process (PID=23438) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:30:12.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:30:12.617+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:30:12.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:30:12.629+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:30:12.648+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:30:12.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:30:12.669+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:30:12.669+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:28:00+00:00, run_after=2026-05-29 13:30:00+00:00
+[2026-05-29T13:30:12.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.080 seconds
+[2026-05-29T13:30:43.206+0000] {processor.py:186} INFO - Started process (PID=23455) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:30:43.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:30:43.208+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:30:43.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:30:43.215+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:30:43.232+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:30:43.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:30:43.252+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:30:43.252+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:28:00+00:00, run_after=2026-05-29 13:30:00+00:00
+[2026-05-29T13:30:43.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T13:31:13.813+0000] {processor.py:186} INFO - Started process (PID=23472) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:31:13.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:31:13.815+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:31:13.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:31:13.826+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:31:13.844+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:31:13.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:31:13.863+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:31:13.863+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:28:00+00:00, run_after=2026-05-29 13:30:00+00:00
+[2026-05-29T13:31:13.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.073 seconds
+[2026-05-29T13:31:44.363+0000] {processor.py:186} INFO - Started process (PID=23488) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:31:44.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:31:44.365+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:31:44.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:31:44.372+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:31:44.387+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:31:44.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:31:44.432+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:31:44.432+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:28:00+00:00, run_after=2026-05-29 13:30:00+00:00
+[2026-05-29T13:31:44.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.099 seconds
+[2026-05-29T13:32:14.946+0000] {processor.py:186} INFO - Started process (PID=23504) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:32:14.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:32:14.948+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:32:14.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:32:14.959+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:32:14.977+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:32:14.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:32:14.999+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:32:14.999+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:30:00+00:00, run_after=2026-05-29 13:32:00+00:00
+[2026-05-29T13:32:15.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.076 seconds
+[2026-05-29T13:32:45.503+0000] {processor.py:186} INFO - Started process (PID=23520) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:32:45.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:32:45.505+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:32:45.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:32:45.513+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:32:45.528+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:32:45.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:32:45.547+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:32:45.547+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:30:00+00:00, run_after=2026-05-29 13:32:00+00:00
+[2026-05-29T13:32:45.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:33:16.086+0000] {processor.py:186} INFO - Started process (PID=23537) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:33:16.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:33:16.089+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:33:16.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:33:16.099+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:33:16.117+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:33:16.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:33:16.137+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:33:16.137+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:30:00+00:00, run_after=2026-05-29 13:32:00+00:00
+[2026-05-29T13:33:16.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.074 seconds
+[2026-05-29T13:33:46.697+0000] {processor.py:186} INFO - Started process (PID=23554) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:33:46.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:33:46.699+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:33:46.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:33:46.708+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:33:46.723+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:33:46.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:33:46.741+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:33:46.741+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:30:00+00:00, run_after=2026-05-29 13:32:00+00:00
+[2026-05-29T13:33:46.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T13:34:17.291+0000] {processor.py:186} INFO - Started process (PID=23570) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:34:17.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:34:17.292+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:34:17.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:34:17.300+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:34:17.315+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:34:17.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:34:17.333+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:34:17.333+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:32:00+00:00, run_after=2026-05-29 13:34:00+00:00
+[2026-05-29T13:34:17.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:34:47.841+0000] {processor.py:186} INFO - Started process (PID=23586) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:34:47.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:34:47.843+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:34:47.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:34:47.852+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:34:47.868+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:34:47.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:34:47.888+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:34:47.887+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:32:00+00:00, run_after=2026-05-29 13:34:00+00:00
+[2026-05-29T13:34:47.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.067 seconds
+[2026-05-29T13:35:18.477+0000] {processor.py:186} INFO - Started process (PID=23603) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:35:18.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:35:18.479+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:35:18.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:35:18.487+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:35:18.503+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:35:18.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:35:18.524+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:35:18.523+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:32:00+00:00, run_after=2026-05-29 13:34:00+00:00
+[2026-05-29T13:35:18.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T13:35:49.067+0000] {processor.py:186} INFO - Started process (PID=23620) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:35:49.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:35:49.069+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:35:49.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:35:49.076+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:35:49.092+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:35:49.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:35:49.117+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:35:49.117+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:32:00+00:00, run_after=2026-05-29 13:34:00+00:00
+[2026-05-29T13:35:49.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T13:36:19.637+0000] {processor.py:186} INFO - Started process (PID=23636) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:36:19.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:36:19.639+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:36:19.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:36:19.647+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:36:19.669+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:36:19.669+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:36:19.687+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:36:19.687+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:34:00+00:00, run_after=2026-05-29 13:36:00+00:00
+[2026-05-29T13:36:19.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T13:36:50.184+0000] {processor.py:186} INFO - Started process (PID=23652) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:36:50.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:36:50.185+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:36:50.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:36:50.193+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:36:50.209+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:36:50.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:36:50.227+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:36:50.227+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:34:00+00:00, run_after=2026-05-29 13:36:00+00:00
+[2026-05-29T13:36:50.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:37:20.761+0000] {processor.py:186} INFO - Started process (PID=23668) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:37:20.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:37:20.763+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:37:20.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:37:20.770+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:37:20.785+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:37:20.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:37:20.806+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:37:20.806+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:34:00+00:00, run_after=2026-05-29 13:36:00+00:00
+[2026-05-29T13:37:20.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:37:51.295+0000] {processor.py:186} INFO - Started process (PID=23685) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:37:51.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:37:51.301+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:37:51.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:37:51.310+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:37:51.327+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:37:51.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:37:51.350+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:37:51.350+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:34:00+00:00, run_after=2026-05-29 13:36:00+00:00
+[2026-05-29T13:37:51.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.082 seconds
+[2026-05-29T13:38:21.997+0000] {processor.py:186} INFO - Started process (PID=23701) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:38:22.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:38:22.001+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:38:22.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:38:22.016+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:38:22.053+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:38:22.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:38:22.103+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:38:22.103+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:36:00+00:00, run_after=2026-05-29 13:38:00+00:00
+[2026-05-29T13:38:22.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.142 seconds
+[2026-05-29T13:38:52.861+0000] {processor.py:186} INFO - Started process (PID=23718) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:38:52.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:38:52.863+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:38:52.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:38:52.870+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:38:52.887+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:38:52.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:38:52.905+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:38:52.904+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:36:00+00:00, run_after=2026-05-29 13:38:00+00:00
+[2026-05-29T13:38:52.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.059 seconds
+[2026-05-29T13:39:23.667+0000] {processor.py:186} INFO - Started process (PID=23735) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:39:23.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:39:23.669+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:39:23.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:39:23.677+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:39:23.694+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:39:23.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:39:23.713+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:39:23.713+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:36:00+00:00, run_after=2026-05-29 13:38:00+00:00
+[2026-05-29T13:39:23.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T13:39:54.348+0000] {processor.py:186} INFO - Started process (PID=23752) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:39:54.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:39:54.350+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:39:54.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:39:54.358+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:39:54.373+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:39:54.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:39:54.393+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:39:54.393+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:36:00+00:00, run_after=2026-05-29 13:38:00+00:00
+[2026-05-29T13:39:54.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:40:24.891+0000] {processor.py:186} INFO - Started process (PID=23768) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:40:24.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:40:24.893+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:40:24.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:40:24.903+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:40:24.920+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:40:24.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:40:24.940+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:40:24.940+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:38:00+00:00, run_after=2026-05-29 13:40:00+00:00
+[2026-05-29T13:40:24.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.074 seconds
+[2026-05-29T13:40:55.457+0000] {processor.py:186} INFO - Started process (PID=23784) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:40:55.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:40:55.459+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:40:55.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:40:55.466+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:40:55.483+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:40:55.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:40:55.500+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:40:55.500+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:38:00+00:00, run_after=2026-05-29 13:40:00+00:00
+[2026-05-29T13:40:55.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:41:26.099+0000] {processor.py:186} INFO - Started process (PID=23801) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:41:26.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:41:26.101+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:41:26.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:41:26.111+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:41:26.130+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:41:26.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:41:26.154+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:41:26.154+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:38:00+00:00, run_after=2026-05-29 13:40:00+00:00
+[2026-05-29T13:41:26.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.074 seconds
+[2026-05-29T13:41:56.639+0000] {processor.py:186} INFO - Started process (PID=23817) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:41:56.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:41:56.640+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:41:56.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:41:56.647+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:41:56.664+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:41:56.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:41:56.694+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:41:56.694+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:38:00+00:00, run_after=2026-05-29 13:40:00+00:00
+[2026-05-29T13:41:56.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.084 seconds
+[2026-05-29T13:42:27.295+0000] {processor.py:186} INFO - Started process (PID=23833) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:42:27.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:42:27.316+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:42:27.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:42:27.373+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:42:27.417+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:42:27.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:42:27.532+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:42:27.532+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:40:00+00:00, run_after=2026-05-29 13:42:00+00:00
+[2026-05-29T13:42:27.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.324 seconds
+[2026-05-29T13:42:58.272+0000] {processor.py:186} INFO - Started process (PID=23849) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:42:58.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:42:58.274+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:42:58.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:42:58.282+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:42:58.297+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:42:58.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:42:58.320+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:42:58.319+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:40:00+00:00, run_after=2026-05-29 13:42:00+00:00
+[2026-05-29T13:42:58.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.064 seconds
+[2026-05-29T13:43:28.999+0000] {processor.py:186} INFO - Started process (PID=23866) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:43:29.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:43:29.004+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:43:29.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:43:29.013+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:43:29.030+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:43:29.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:43:29.054+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:43:29.054+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:40:00+00:00, run_after=2026-05-29 13:42:00+00:00
+[2026-05-29T13:43:29.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.079 seconds
+[2026-05-29T13:43:59.655+0000] {processor.py:186} INFO - Started process (PID=23882) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:43:59.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:43:59.656+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:43:59.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:43:59.664+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:43:59.685+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:43:59.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:43:59.707+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:43:59.707+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:40:00+00:00, run_after=2026-05-29 13:42:00+00:00
+[2026-05-29T13:43:59.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.071 seconds
+[2026-05-29T13:44:30.200+0000] {processor.py:186} INFO - Started process (PID=23904) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:44:30.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:44:30.201+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:44:30.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:44:30.209+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:44:30.224+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:44:30.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:44:30.241+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:44:30.241+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:42:00+00:00, run_after=2026-05-29 13:44:00+00:00
+[2026-05-29T13:44:30.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.061 seconds
+[2026-05-29T13:45:00.737+0000] {processor.py:186} INFO - Started process (PID=23921) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:45:00.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:45:00.739+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:45:00.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:45:00.746+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:45:00.762+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:45:00.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:45:00.780+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:45:00.780+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:42:00+00:00, run_after=2026-05-29 13:44:00+00:00
+[2026-05-29T13:45:00.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.059 seconds
+[2026-05-29T13:45:31.250+0000] {processor.py:186} INFO - Started process (PID=23937) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:45:31.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:45:31.251+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:45:31.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:45:31.259+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:45:31.275+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:45:31.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:45:31.294+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:45:31.294+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:42:00+00:00, run_after=2026-05-29 13:44:00+00:00
+[2026-05-29T13:45:31.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:46:01.788+0000] {processor.py:186} INFO - Started process (PID=23953) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:46:01.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:46:01.789+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:46:01.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:46:01.796+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:46:01.812+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:46:01.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:46:01.829+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:46:01.829+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:44:00+00:00, run_after=2026-05-29 13:46:00+00:00
+[2026-05-29T13:46:01.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:46:32.352+0000] {processor.py:186} INFO - Started process (PID=23970) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:46:32.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:46:32.354+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:46:32.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:46:32.364+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:46:32.383+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:46:32.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:46:32.407+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:46:32.407+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:44:00+00:00, run_after=2026-05-29 13:46:00+00:00
+[2026-05-29T13:46:32.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.076 seconds
+[2026-05-29T13:47:02.955+0000] {processor.py:186} INFO - Started process (PID=23986) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:47:02.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:47:02.957+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:47:02.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:47:02.964+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:47:02.981+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:47:02.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:47:02.998+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:47:02.998+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:44:00+00:00, run_after=2026-05-29 13:46:00+00:00
+[2026-05-29T13:47:03.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.061 seconds
+[2026-05-29T13:47:33.542+0000] {processor.py:186} INFO - Started process (PID=24003) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:47:33.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:47:33.545+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:47:33.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:47:33.554+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:47:33.573+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:47:33.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:47:33.592+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:47:33.592+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:44:00+00:00, run_after=2026-05-29 13:46:00+00:00
+[2026-05-29T13:47:33.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.072 seconds
+[2026-05-29T13:48:04.091+0000] {processor.py:186} INFO - Started process (PID=24018) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:48:04.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:48:04.092+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:48:04.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:48:04.100+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:48:04.115+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:48:04.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:48:04.132+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:48:04.132+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:46:00+00:00, run_after=2026-05-29 13:48:00+00:00
+[2026-05-29T13:48:04.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.061 seconds
+[2026-05-29T13:48:34.635+0000] {processor.py:186} INFO - Started process (PID=24035) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:48:34.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:48:34.638+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:48:34.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:48:34.647+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:48:34.666+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:48:34.666+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:48:34.687+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:48:34.687+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:46:00+00:00, run_after=2026-05-29 13:48:00+00:00
+[2026-05-29T13:48:34.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.073 seconds
+[2026-05-29T13:49:05.210+0000] {processor.py:186} INFO - Started process (PID=24052) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:49:05.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:49:05.212+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:49:05.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:49:05.219+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:49:05.233+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:49:05.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:49:05.254+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:49:05.254+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:46:00+00:00, run_after=2026-05-29 13:48:00+00:00
+[2026-05-29T13:49:05.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:49:35.744+0000] {processor.py:186} INFO - Started process (PID=24069) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:49:35.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:49:35.748+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:49:35.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:49:35.757+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:49:35.775+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:49:35.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:49:35.796+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:49:35.796+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:46:00+00:00, run_after=2026-05-29 13:48:00+00:00
+[2026-05-29T13:49:35.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T13:50:06.355+0000] {processor.py:186} INFO - Started process (PID=24086) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:50:06.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:50:06.356+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:50:06.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:50:06.365+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:50:06.385+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:50:06.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:50:06.403+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:50:06.403+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:48:00+00:00, run_after=2026-05-29 13:50:00+00:00
+[2026-05-29T13:50:06.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T13:50:36.973+0000] {processor.py:186} INFO - Started process (PID=24101) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:50:36.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:50:36.977+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:50:36.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:50:36.991+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:50:37.029+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:50:37.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:50:37.062+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:50:37.062+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:48:00+00:00, run_after=2026-05-29 13:50:00+00:00
+[2026-05-29T13:50:37.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.122 seconds
+[2026-05-29T13:51:07.611+0000] {processor.py:186} INFO - Started process (PID=24118) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:51:07.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:51:07.613+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:51:07.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:51:07.620+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:51:07.636+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:51:07.636+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:51:07.654+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:51:07.653+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:48:00+00:00, run_after=2026-05-29 13:50:00+00:00
+[2026-05-29T13:51:07.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.061 seconds
+[2026-05-29T13:51:38.386+0000] {processor.py:186} INFO - Started process (PID=24134) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:51:38.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:51:38.388+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:51:38.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:51:38.395+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:51:38.410+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:51:38.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:51:38.428+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:51:38.428+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:48:00+00:00, run_after=2026-05-29 13:50:00+00:00
+[2026-05-29T13:51:38.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.058 seconds
+[2026-05-29T13:52:09.045+0000] {processor.py:186} INFO - Started process (PID=24150) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:52:09.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:52:09.047+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:52:09.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:52:09.055+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:52:09.070+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:52:09.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:52:09.089+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:52:09.089+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:50:00+00:00, run_after=2026-05-29 13:52:00+00:00
+[2026-05-29T13:52:09.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:52:39.633+0000] {processor.py:186} INFO - Started process (PID=24167) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:52:39.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:52:39.635+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:52:39.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:52:39.651+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:52:39.678+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:52:39.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:52:39.711+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:52:39.711+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:50:00+00:00, run_after=2026-05-29 13:52:00+00:00
+[2026-05-29T13:52:39.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.097 seconds
+[2026-05-29T13:53:10.206+0000] {processor.py:186} INFO - Started process (PID=24183) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:53:10.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:53:10.207+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:53:10.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:53:10.214+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:53:10.230+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:53:10.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:53:10.247+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:53:10.247+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:50:00+00:00, run_after=2026-05-29 13:52:00+00:00
+[2026-05-29T13:53:10.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.056 seconds
+[2026-05-29T13:53:40.756+0000] {processor.py:186} INFO - Started process (PID=24200) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:53:40.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:53:40.758+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:53:40.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:53:40.765+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:53:40.781+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:53:40.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:53:40.798+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:53:40.798+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:50:00+00:00, run_after=2026-05-29 13:52:00+00:00
+[2026-05-29T13:53:40.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T13:54:11.271+0000] {processor.py:186} INFO - Started process (PID=24215) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:54:11.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:54:11.273+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:54:11.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:54:11.281+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:54:11.296+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:54:11.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:54:11.313+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:54:11.313+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:52:00+00:00, run_after=2026-05-29 13:54:00+00:00
+[2026-05-29T13:54:11.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:54:41.885+0000] {processor.py:186} INFO - Started process (PID=24231) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:54:41.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:54:41.887+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:54:41.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:54:41.896+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:54:41.912+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:54:41.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:54:41.930+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:54:41.930+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:52:00+00:00, run_after=2026-05-29 13:54:00+00:00
+[2026-05-29T13:54:41.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.064 seconds
+[2026-05-29T13:55:12.419+0000] {processor.py:186} INFO - Started process (PID=24248) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:55:12.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:55:12.421+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:55:12.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:55:12.429+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:55:12.451+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:55:12.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:55:12.472+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:55:12.472+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:52:00+00:00, run_after=2026-05-29 13:54:00+00:00
+[2026-05-29T13:55:12.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.077 seconds
+[2026-05-29T13:55:43.015+0000] {processor.py:186} INFO - Started process (PID=24264) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:55:43.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:55:43.018+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:55:43.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:55:43.026+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:55:43.044+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:55:43.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:55:43.065+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:55:43.065+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:52:00+00:00, run_after=2026-05-29 13:54:00+00:00
+[2026-05-29T13:55:43.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T13:56:13.599+0000] {processor.py:186} INFO - Started process (PID=24279) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:56:13.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:56:13.601+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:56:13.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:56:13.608+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:56:13.623+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:56:13.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:56:13.640+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:56:13.639+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:54:00+00:00, run_after=2026-05-29 13:56:00+00:00
+[2026-05-29T13:56:13.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.059 seconds
+[2026-05-29T13:56:44.155+0000] {processor.py:186} INFO - Started process (PID=24295) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:56:44.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:56:44.157+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:56:44.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:56:44.166+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:56:44.182+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:56:44.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:56:44.203+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:56:44.203+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:54:00+00:00, run_after=2026-05-29 13:56:00+00:00
+[2026-05-29T13:56:44.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.079 seconds
+[2026-05-29T13:57:14.806+0000] {processor.py:186} INFO - Started process (PID=24311) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:57:14.808+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:57:14.809+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:57:14.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:57:14.824+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:57:14.861+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:57:14.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:57:14.898+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:57:14.898+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:54:00+00:00, run_after=2026-05-29 13:56:00+00:00
+[2026-05-29T13:57:14.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.125 seconds
+[2026-05-29T13:57:45.465+0000] {processor.py:186} INFO - Started process (PID=24326) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:57:45.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:57:45.471+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:57:45.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:57:45.488+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:57:45.525+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:57:45.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:57:45.560+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:57:45.558+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:54:00+00:00, run_after=2026-05-29 13:56:00+00:00
+[2026-05-29T13:57:45.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.127 seconds
+[2026-05-29T13:58:16.216+0000] {processor.py:186} INFO - Started process (PID=24343) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:58:16.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:58:16.218+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:58:16.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:58:16.225+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:58:16.240+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:58:16.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:58:16.258+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:58:16.257+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:56:00+00:00, run_after=2026-05-29 13:58:00+00:00
+[2026-05-29T13:58:16.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T13:58:46.976+0000] {processor.py:186} INFO - Started process (PID=24359) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:58:46.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:58:46.977+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:58:46.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:58:46.987+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:58:47.003+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:58:47.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:58:47.021+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:58:47.021+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:56:00+00:00, run_after=2026-05-29 13:58:00+00:00
+[2026-05-29T13:58:47.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T13:59:17.661+0000] {processor.py:186} INFO - Started process (PID=24375) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:59:17.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:59:17.662+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:59:17.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:59:17.670+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:59:17.684+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:59:17.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:59:17.704+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:59:17.704+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:56:00+00:00, run_after=2026-05-29 13:58:00+00:00
+[2026-05-29T13:59:17.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.059 seconds
+[2026-05-29T13:59:48.180+0000] {processor.py:186} INFO - Started process (PID=24391) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:59:48.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T13:59:48.182+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:59:48.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:59:48.190+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T13:59:48.206+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:59:48.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T13:59:48.225+0000] {logging_mixin.py:190} INFO - [2026-05-29T13:59:48.225+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:56:00+00:00, run_after=2026-05-29 13:58:00+00:00
+[2026-05-29T13:59:48.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T14:00:18.814+0000] {processor.py:186} INFO - Started process (PID=24407) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:00:18.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:00:18.816+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:00:18.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:00:18.824+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:00:18.840+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:00:18.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:00:18.857+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:00:18.857+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:58:00+00:00, run_after=2026-05-29 14:00:00+00:00
+[2026-05-29T14:00:18.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T14:00:49.364+0000] {processor.py:186} INFO - Started process (PID=24423) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:00:49.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:00:49.365+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:00:49.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:00:49.373+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:00:49.389+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:00:49.389+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:00:49.407+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:00:49.407+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:58:00+00:00, run_after=2026-05-29 14:00:00+00:00
+[2026-05-29T14:00:49.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T14:01:19.915+0000] {processor.py:186} INFO - Started process (PID=24438) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:01:19.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:01:19.917+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:01:19.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:01:19.924+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:01:19.939+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:01:19.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:01:19.956+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:01:19.956+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:58:00+00:00, run_after=2026-05-29 14:00:00+00:00
+[2026-05-29T14:01:19.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.058 seconds
+[2026-05-29T14:01:50.479+0000] {processor.py:186} INFO - Started process (PID=24454) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:01:50.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:01:50.481+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:01:50.481+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:01:50.490+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:01:50.507+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:01:50.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:01:50.527+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:01:50.527+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 13:58:00+00:00, run_after=2026-05-29 14:00:00+00:00
+[2026-05-29T14:01:50.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T14:02:21.107+0000] {processor.py:186} INFO - Started process (PID=24470) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:02:21.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:02:21.109+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:02:21.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:02:21.116+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:02:21.131+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:02:21.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:02:21.148+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:02:21.148+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:00:00+00:00, run_after=2026-05-29 14:02:00+00:00
+[2026-05-29T14:02:21.161+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.058 seconds
+[2026-05-29T14:02:51.715+0000] {processor.py:186} INFO - Started process (PID=24486) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:02:51.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:02:51.719+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:02:51.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:02:51.735+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:02:51.769+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:02:51.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:02:51.788+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:02:51.788+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:00:00+00:00, run_after=2026-05-29 14:02:00+00:00
+[2026-05-29T14:02:51.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.098 seconds
+[2026-05-29T14:03:22.270+0000] {processor.py:186} INFO - Started process (PID=24503) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:03:22.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:03:22.271+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:03:22.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:03:22.278+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:03:22.293+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:03:22.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:03:22.312+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:03:22.312+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:00:00+00:00, run_after=2026-05-29 14:02:00+00:00
+[2026-05-29T14:03:22.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T14:03:53.027+0000] {processor.py:186} INFO - Started process (PID=24520) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:03:53.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:03:53.029+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:03:53.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:03:53.037+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:03:53.053+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:03:53.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:03:53.072+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:03:53.072+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:00:00+00:00, run_after=2026-05-29 14:02:00+00:00
+[2026-05-29T14:03:53.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T14:04:23.616+0000] {processor.py:186} INFO - Started process (PID=24536) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:04:23.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:04:23.618+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:04:23.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:04:23.625+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:04:23.641+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:04:23.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:04:23.661+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:04:23.661+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:02:00+00:00, run_after=2026-05-29 14:04:00+00:00
+[2026-05-29T14:04:23.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T14:04:54.186+0000] {processor.py:186} INFO - Started process (PID=24552) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:04:54.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:04:54.188+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:04:54.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:04:54.196+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:04:54.213+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:04:54.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:04:54.233+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:04:54.233+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:02:00+00:00, run_after=2026-05-29 14:04:00+00:00
+[2026-05-29T14:04:54.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.066 seconds
+[2026-05-29T14:05:24.787+0000] {processor.py:186} INFO - Started process (PID=24568) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:05:24.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:05:24.789+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:05:24.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:05:24.796+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:05:24.813+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:05:24.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:05:24.832+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:05:24.831+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:02:00+00:00, run_after=2026-05-29 14:04:00+00:00
+[2026-05-29T14:05:24.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.061 seconds
+[2026-05-29T14:05:55.390+0000] {processor.py:186} INFO - Started process (PID=24584) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:05:55.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:05:55.394+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:05:55.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:05:55.405+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:05:55.422+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:05:55.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:05:55.441+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:05:55.440+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:02:00+00:00, run_after=2026-05-29 14:04:00+00:00
+[2026-05-29T14:05:55.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T14:06:25.992+0000] {processor.py:186} INFO - Started process (PID=24600) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:06:25.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:06:25.994+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:06:25.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:06:26.002+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:06:26.019+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:06:26.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:06:26.038+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:06:26.038+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:04:00+00:00, run_after=2026-05-29 14:06:00+00:00
+[2026-05-29T14:06:26.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T14:06:56.591+0000] {processor.py:186} INFO - Started process (PID=24616) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:06:56.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:06:56.594+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:06:56.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:06:56.603+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:06:56.619+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:06:56.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:06:56.640+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:06:56.639+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:04:00+00:00, run_after=2026-05-29 14:06:00+00:00
+[2026-05-29T14:06:56.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T14:07:27.217+0000] {processor.py:186} INFO - Started process (PID=24633) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:07:27.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:07:27.220+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:07:27.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:07:27.228+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:07:27.248+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:07:27.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:07:27.270+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:07:27.270+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:04:00+00:00, run_after=2026-05-29 14:06:00+00:00
+[2026-05-29T14:07:27.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.081 seconds
+[2026-05-29T14:07:57.824+0000] {processor.py:186} INFO - Started process (PID=24649) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:07:57.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:07:57.826+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:07:57.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:07:57.834+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:07:57.850+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:07:57.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:07:57.869+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:07:57.869+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:04:00+00:00, run_after=2026-05-29 14:06:00+00:00
+[2026-05-29T14:07:57.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T14:08:28.395+0000] {processor.py:186} INFO - Started process (PID=24666) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:08:28.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:08:28.397+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:08:28.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:08:28.405+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:08:28.421+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:08:28.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:08:28.443+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:08:28.443+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:06:00+00:00, run_after=2026-05-29 14:08:00+00:00
+[2026-05-29T14:08:28.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.066 seconds
+[2026-05-29T14:08:58.943+0000] {processor.py:186} INFO - Started process (PID=24682) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:08:58.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:08:58.946+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:08:58.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:08:58.954+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:08:58.970+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:08:58.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:08:58.988+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:08:58.988+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:06:00+00:00, run_after=2026-05-29 14:08:00+00:00
+[2026-05-29T14:08:59.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T14:09:29.537+0000] {processor.py:186} INFO - Started process (PID=24697) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:09:29.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:09:29.539+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:09:29.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:09:29.547+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:09:29.569+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:09:29.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:09:29.588+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:09:29.587+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:06:00+00:00, run_after=2026-05-29 14:08:00+00:00
+[2026-05-29T14:09:29.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.069 seconds
+[2026-05-29T14:10:00.098+0000] {processor.py:186} INFO - Started process (PID=24712) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:10:00.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:10:00.101+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:10:00.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:10:00.109+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:10:00.125+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:10:00.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:10:00.144+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:10:00.144+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:08:00+00:00, run_after=2026-05-29 14:10:00+00:00
+[2026-05-29T14:10:00.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T14:10:30.679+0000] {processor.py:186} INFO - Started process (PID=24729) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:10:30.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:10:30.681+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:10:30.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:10:30.689+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:10:30.705+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:10:30.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:10:30.723+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:10:30.723+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:08:00+00:00, run_after=2026-05-29 14:10:00+00:00
+[2026-05-29T14:10:30.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T14:11:01.185+0000] {processor.py:186} INFO - Started process (PID=24745) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:11:01.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:11:01.188+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:11:01.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:11:01.196+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:11:01.215+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:11:01.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:11:01.237+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:11:01.236+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:08:00+00:00, run_after=2026-05-29 14:10:00+00:00
+[2026-05-29T14:11:01.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.076 seconds
+[2026-05-29T14:11:31.760+0000] {processor.py:186} INFO - Started process (PID=24762) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:11:31.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:11:31.761+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:11:31.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:11:31.768+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:11:31.784+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:11:31.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:11:31.804+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:11:31.804+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:08:00+00:00, run_after=2026-05-29 14:10:00+00:00
+[2026-05-29T14:11:31.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T14:12:02.325+0000] {processor.py:186} INFO - Started process (PID=24784) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:12:02.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:12:02.328+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:12:02.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:12:02.337+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:12:02.355+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:12:02.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:12:02.377+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:12:02.377+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:10:00+00:00, run_after=2026-05-29 14:12:00+00:00
+[2026-05-29T14:12:02.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.071 seconds
+[2026-05-29T14:12:32.955+0000] {processor.py:186} INFO - Started process (PID=24800) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:12:32.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:12:32.961+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:12:32.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:12:32.975+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:12:33.018+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:12:33.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:12:33.052+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:12:33.052+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:10:00+00:00, run_after=2026-05-29 14:12:00+00:00
+[2026-05-29T14:12:33.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.129 seconds
+[2026-05-29T14:13:03.603+0000] {processor.py:186} INFO - Started process (PID=24816) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:13:03.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:13:03.605+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:13:03.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:13:03.613+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:13:03.628+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:13:03.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:13:03.646+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:13:03.646+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:10:00+00:00, run_after=2026-05-29 14:12:00+00:00
+[2026-05-29T14:13:03.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.067 seconds
+[2026-05-29T14:13:34.344+0000] {processor.py:186} INFO - Started process (PID=24832) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:13:34.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:13:34.346+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:13:34.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:13:34.353+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:13:34.369+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:13:34.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:13:34.387+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:13:34.387+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:10:00+00:00, run_after=2026-05-29 14:12:00+00:00
+[2026-05-29T14:13:34.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T14:14:05.019+0000] {processor.py:186} INFO - Started process (PID=24848) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:14:05.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:14:05.021+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:14:05.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:14:05.029+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:14:05.044+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:14:05.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:14:05.062+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:14:05.061+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:12:00+00:00, run_after=2026-05-29 14:14:00+00:00
+[2026-05-29T14:14:05.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.061 seconds
+[2026-05-29T14:14:35.567+0000] {processor.py:186} INFO - Started process (PID=24865) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:14:35.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:14:35.569+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:14:35.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:14:35.576+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:14:35.592+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:14:35.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:14:35.610+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:14:35.610+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:12:00+00:00, run_after=2026-05-29 14:14:00+00:00
+[2026-05-29T14:14:35.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T14:15:06.097+0000] {processor.py:186} INFO - Started process (PID=24881) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:15:06.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:15:06.101+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:15:06.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:15:06.118+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:15:06.154+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:15:06.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:15:06.194+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:15:06.194+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:12:00+00:00, run_after=2026-05-29 14:14:00+00:00
+[2026-05-29T14:15:06.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.125 seconds
+[2026-05-29T14:15:36.732+0000] {processor.py:186} INFO - Started process (PID=24897) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:15:36.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:15:36.734+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:15:36.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:15:36.743+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:15:36.759+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:15:36.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:15:36.778+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:15:36.778+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:12:00+00:00, run_after=2026-05-29 14:14:00+00:00
+[2026-05-29T14:15:36.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T14:16:07.355+0000] {processor.py:186} INFO - Started process (PID=24913) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:16:07.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:16:07.357+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:16:07.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:16:07.365+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:16:07.382+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:16:07.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:16:07.401+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:16:07.400+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:14:00+00:00, run_after=2026-05-29 14:16:00+00:00
+[2026-05-29T14:16:07.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.064 seconds
+[2026-05-29T14:16:38.171+0000] {processor.py:186} INFO - Started process (PID=24929) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:16:38.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:16:38.172+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:16:38.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:16:38.180+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:16:38.196+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:16:38.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:16:38.214+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:16:38.214+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:14:00+00:00, run_after=2026-05-29 14:16:00+00:00
+[2026-05-29T14:16:38.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T14:17:08.719+0000] {processor.py:186} INFO - Started process (PID=24945) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:17:08.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:17:08.721+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:17:08.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:17:08.729+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:17:08.746+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:17:08.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:17:08.764+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:17:08.763+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:14:00+00:00, run_after=2026-05-29 14:16:00+00:00
+[2026-05-29T14:17:08.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.062 seconds
+[2026-05-29T14:17:39.240+0000] {processor.py:186} INFO - Started process (PID=24961) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:17:39.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:17:39.242+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:17:39.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:17:39.250+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:17:39.266+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:17:39.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:17:39.289+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:17:39.288+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:14:00+00:00, run_after=2026-05-29 14:16:00+00:00
+[2026-05-29T14:17:39.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.067 seconds
+[2026-05-29T14:18:09.773+0000] {processor.py:186} INFO - Started process (PID=24978) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:18:09.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:18:09.775+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:18:09.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:18:09.784+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:18:09.801+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:18:09.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:18:09.819+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:18:09.819+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:16:00+00:00, run_after=2026-05-29 14:18:00+00:00
+[2026-05-29T14:18:09.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.065 seconds
+[2026-05-29T14:18:40.347+0000] {processor.py:186} INFO - Started process (PID=24995) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:18:40.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:18:40.349+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:18:40.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:18:40.356+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:18:40.372+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:18:40.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:18:40.390+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:18:40.389+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:16:00+00:00, run_after=2026-05-29 14:18:00+00:00
+[2026-05-29T14:18:40.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.060 seconds
+[2026-05-29T14:19:10.922+0000] {processor.py:186} INFO - Started process (PID=25011) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:19:10.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:19:10.925+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:19:10.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:19:10.937+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:19:10.956+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:19:10.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:19:10.977+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:19:10.977+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:16:00+00:00, run_after=2026-05-29 14:18:00+00:00
+[2026-05-29T14:19:10.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.077 seconds
+[2026-05-29T14:19:41.453+0000] {processor.py:186} INFO - Started process (PID=25028) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:19:41.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:19:41.454+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:19:41.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:19:41.462+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:19:41.483+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:19:41.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:19:41.503+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:19:41.503+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:16:00+00:00, run_after=2026-05-29 14:18:00+00:00
+[2026-05-29T14:19:41.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.068 seconds
+[2026-05-29T14:20:11.995+0000] {processor.py:186} INFO - Started process (PID=25044) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:20:11.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:20:11.997+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:20:11.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:20:12.006+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:20:12.024+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:20:12.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:20:12.043+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:20:12.043+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:18:00+00:00, run_after=2026-05-29 14:20:00+00:00
+[2026-05-29T14:20:12.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.067 seconds
+[2026-05-29T14:20:42.510+0000] {processor.py:186} INFO - Started process (PID=25061) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:20:42.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:20:42.511+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:20:42.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:20:42.519+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:20:42.536+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:20:42.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:20:42.554+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:20:42.554+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:18:00+00:00, run_after=2026-05-29 14:20:00+00:00
+[2026-05-29T14:20:42.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.063 seconds
+[2026-05-29T14:21:13.021+0000] {processor.py:186} INFO - Started process (PID=25077) to work on /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:21:13.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/health_check_kafka_server.py for tasks to queue
+[2026-05-29T14:21:13.023+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:21:13.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:21:13.031+0000] {processor.py:925} INFO - DAG(s) 'health_check_kafka_server' retrieved from /opt/airflow/dags/health_check_kafka_server.py
+[2026-05-29T14:21:13.048+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:21:13.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-29T14:21:13.068+0000] {logging_mixin.py:190} INFO - [2026-05-29T14:21:13.068+0000] {dag.py:4180} INFO - Setting next_dagrun for health_check_kafka_server to 2026-05-29 14:18:00+00:00, run_after=2026-05-29 14:20:00+00:00
+[2026-05-29T14:21:13.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/health_check_kafka_server.py took 0.071 seconds

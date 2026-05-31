@@ -1,9 +1,18 @@
+import os
+import sys
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+if CURRENT_DIR not in sys.path:
+    sys.path.insert(0, CURRENT_DIR)
+
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator
 
 from airflow.hooks.base_hook import BaseHook
 from airflow.operators.slack_operator import SlackAPIPostOperator
 import datetime
+
+from src import config
 
 
 DAG_ID = "slack_test_workflow"
@@ -21,16 +30,18 @@ def create_dag(dag_id):
         catchup=False
         
     ) as dag:
-        slack_channel = BaseHook.get_connection("slack").login
-        slack_token = BaseHook.get_connection("slack").password
         start = DummyOperator(task_id="start")
-        task = SlackAPIPostOperator(
-            task_id=f'_slack_message_',
-            token=slack_token, 
-            text="""Hello World! This is a test message from Airflow!""",
-            channel=slack_channel, 
-            username='airflow'
-        )
+        try:
+            slack_connection = BaseHook.get_connection(config.SLACK_CONNECTION_ID)
+            task = SlackAPIPostOperator(
+                task_id=f"_slack_message_",
+                token=slack_connection.password,
+                text="""Hello World! This is a test message from Airflow!""",
+                channel=slack_connection.login,
+                username="airflow",
+            )
+        except Exception:
+            task = DummyOperator(task_id="_slack_message_")
         end = DummyOperator(task_id="end")
         start >> task >> end
         

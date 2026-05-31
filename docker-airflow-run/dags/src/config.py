@@ -1,16 +1,32 @@
-RUN_LOCAL = False
-if RUN_LOCAL:
-    PATH_DIR_DATA = "../dags/data"
-    PATH_DIR_MODELS = "../dags/models"
-    PATH_DIR_RESULTS = "../dags/results"
-    PATH_TO_CREDENTIALS = "../dags/Creds.json"
-    PATH_TO_APP_SHELL = "../dags/app.sh"
-else:
-    PATH_DIR_DATA = "/opt/airflow/dags/data"
-    PATH_DIR_MODELS = "/opt/airflow/dags/models"
-    PATH_DIR_RESULTS = "/opt/airflow/dags/results"
-    PATH_TO_CREDENTIALS = "/opt/airflow/dags/Creds.json"
-    PATH_TO_APP_SHELL = "/opt/airflow/dags/app.sh"
+import os
+from pathlib import Path
+
+
+# Resolve project paths relative to this file so the project can live inside any
+# Airflow DAG subdirectory, not only /opt/airflow/dags.
+BASE_DIR = Path(__file__).resolve().parents[1]
+
+PATH_DIR_DATA = os.environ.get("ML_PIPELINE_DATA_DIR", str(BASE_DIR / "data"))
+PATH_DIR_MODELS = os.environ.get("ML_PIPELINE_MODELS_DIR", str(BASE_DIR / "models"))
+PATH_DIR_RESULTS = os.environ.get("ML_PIPELINE_RESULTS_DIR", str(BASE_DIR / "results"))
+PATH_TO_CREDENTIALS = os.environ.get("ML_PIPELINE_CREDS_PATH", str(BASE_DIR / "Creds.json"))
+PATH_TO_APP_SHELL = os.environ.get("ML_PIPELINE_APP_SHELL", str(BASE_DIR / "app.sh"))
+
+PATH_DIR_RAW = os.path.join(PATH_DIR_DATA, "raw")
+PATH_DIR_PREPROCESSED = os.path.join(PATH_DIR_DATA, "preprocessed")
+
+SLACK_CONNECTION_ID = os.environ.get("ML_PIPELINE_SLACK_CONN_ID", "slack_connection")
+
+
+def ensure_runtime_directories():
+    """
+    Create the writable project directories if they do not already exist.
+    """
+    for path in (PATH_DIR_DATA, PATH_DIR_RAW, PATH_DIR_PREPROCESSED, PATH_DIR_MODELS, PATH_DIR_RESULTS):
+        os.makedirs(path, exist_ok=True)
+
+
+ensure_runtime_directories()
 
 RANDOM_SEED = 42
 TEST_SPLIT_SIZE = 0.3
@@ -91,5 +107,4 @@ STAGES = [
     ]
 STATUS = ["pass", "fail", "skipped", "started"]
 JOB_TYPES = ["training", "inference", None]
-
 
