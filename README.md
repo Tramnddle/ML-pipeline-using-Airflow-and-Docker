@@ -1,6 +1,6 @@
 # Loan Prediction
 
-<<<<<<< Updated upstream
+Updated upstream
 =======
 ### Pre-requisites
 
